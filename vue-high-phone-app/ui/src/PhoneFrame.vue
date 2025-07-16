@@ -12,9 +12,7 @@ const isDev = !window.hphone;
     </div>
   </div>
 
-  <template v-else>
-    <slot/>
-  </template>
+  <slot v-else/>
 </template>
 
 <style scoped>
