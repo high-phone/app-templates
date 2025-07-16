@@ -13,8 +13,8 @@ CreateThread(function()
             imageUrl = ("https://cfx-nui-%s/ui/dist/icon.png"):format(resourceName),
             background = "#0E0F0E"
         },
-        externalUrl = 'http://localhost:5174'
-        -- externalUrl = ('@%s/web/dist/index.html'):format(resourceName),
+        externalUrl = 'http://localhost:3310'
+        -- externalUrl = ('@%s/ui/dist/index.html'):format(resourceName),
     }, {
         ["en"] = {
             label = "Vue App",
